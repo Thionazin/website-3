@@ -180,7 +180,6 @@ body {
 }
 
 
-
 nav {
 	position: fixed;
 	z-index: 2;
@@ -216,4 +215,100 @@ nav ul li a {
 	text-decoration: none;
 	color: #fff;
 	font-size: 16px;
+}
+
+.about-me {
+	display: flex;
+}
+
+.overview-textbox {
+	width: 50vw;
+	border-right: 2px solid black;
+	height: 90vh;
+}
+
+.about-text {
+	font-size: 20px;
+	padding: 40px;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.overview-photos {
+	width: 50vw;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/about-1.jpg') no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+}
+
+.prog-link {
+	color: #5f5f9e;
+}
+
+.egl-link {
+	color: #FFCC00;
+}
+
+.sch-link {
+	color: #500000;
+}
+
+.about-link {
+	font-weight: bold;
+	transition: all 0.1s linear;
+	text-decoration: none;
+	border-bottom: 0px solid;
+}
+
+.about-link:hover {
+	color: #000000;
+	border-bottom: 2px solid;
+}
+
+.rl-image {
+	transition: all 0.2s ease-in-out;
+	opacity: 0;
+	position: absolute;
+	right: 10%;
+	user-select: none;
+}
+
+.github {
+}
+
+.tamu {
+	width: 512px;
+	height: 512px;
+}
+.csce {
+	width: 512px;
+	height: 512px;
+}
+
+.bsa {
+	width: 512px;
+	height: 512px;
+}
+
+.prog-link:hover + .github {
+	opacity: 1;
+}
+
+.sch-link-1:hover + .tamu {
+	opacity: 1;
+}
+
+.pt-link:hover + .csce {
+	opacity: 1;
+}
+
+.egl-link:hover + .bsa {
+	opacity: 1;
+}
+
+.skills {
+	display: flex;
 }
