@@ -312,3 +312,57 @@ nav ul li a {
 .skills {
 	display: flex;
 }
+
+.resume {
+	width: 50vw;
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/senhe_hao.jpg') no-repeat;
+	background-attachment: fixed;
+	background-size: 50%;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease-in-out;
+	border-right: 2px solid black;
+	margin: 0 auto;
+	text-decoration: none;
+}
+
+
+.resume-link {
+}
+
+.skill-list {
+	width: 50vw;
+	border-right: 2px solid black;
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.skill-text {
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 18px;
+	text-align: left;
+}
+
+.seperator {
+	width: 600px;
+	border: 2px solid black;
+}
+
+.resume-text {
+	color: white;
+	opacity: 0;
+	transition: all 0.1s ease-in-out;
+	position: absolute;
+	font-size: 22px;
+	left: 19%;
+	padding-top: 22%;
+	font-weight: 900;
+}
+
+.resume:hover .resume-text {
+	opacity: 1;
+}
