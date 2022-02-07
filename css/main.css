@@ -443,3 +443,36 @@ nav ul li a {
 	margin-right: 34%;
 	margin-top: 3%;
 }
+
+.mlf-text {
+	text-decoration: none;
+	color: #6d3200;
+	transition: all 0.2s linear;
+	border-bottom: 2px transparent;
+}
+
+.mlf-text:hover {
+	border-bottom: 2px solid;
+	border-color: #6d3200;
+}
+
+.contact-info {
+	background-color: black;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.contact-logos {
+	display: flex;
+}
+
+.contact-buttons {
+	padding-left: 24px;
+	padding-right: 24px;
+	transition: all 0.2s ease-in-out;
+}
+
+.contact-buttons:hover {
+	filter: brightness(0.3);
+}
