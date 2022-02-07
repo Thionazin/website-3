@@ -77,7 +77,7 @@ body {
 }
 
 .bird--three {
-	animation-duration: 1.25s;
+	animation-duration: 1.2s;
 	animation-delay: -0.25s;
 }
 
@@ -87,12 +87,12 @@ body {
 }
 
 .bird--five {
-	animation-duration: 1.3s;
+	animation-duration: 1.16s;
 	animation-delay: -0.5s;
 }
 
 .bird--six {
-	animation-duration: 0.84s;
+	animation-duration: 0.94s;
 	animation-delay: -0.9s;
 }
 
@@ -407,4 +407,39 @@ nav ul li a {
 	border: 2px solid black;
 	background-color: #000000;
 	color: white;
+}
+
+.service-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.service-photos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 16px solid black;
+	border-bottom: 16px solid black;
+	margin: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.service-image {
+	max-width: 15%;
+	height: auto;
+	border: 6px solid black;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.service-title {
+	margin-bottom: 3%;
+}
+
+.service-words {
+	font-size: 18px;
+	margin-left: 34%;
+	margin-right: 34%;
+	margin-top: 3%;
 }
