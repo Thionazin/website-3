@@ -366,3 +366,45 @@ nav ul li a {
 .resume:hover .resume-text {
 	opacity: 1;
 }
+
+.showcase-container {
+	display: flex;
+}
+
+.showcase {
+	border: solid 16px black;
+	width: 50vw;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	margin: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+.showcase-image {
+	width: 400;
+	height: 400;
+	border: 10px solid;
+}
+
+.showcase-text {
+	padding-left: 13%;
+	padding-right: 13%;
+}
+
+.github-link {
+	margin: 2%;
+	padding: 1%;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	border: 2px solid transparent;
+	transition: all 0.2s linear;
+}
+
+.github-link:hover {
+	border: 2px solid black;
+	background-color: #000000;
+	color: white;
+}
