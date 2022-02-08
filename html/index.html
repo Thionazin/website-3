@@ -1,14 +1,14 @@
-<script src="../js/main.js"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="../css/main.css">
+	<link id="style-link" rel="stylesheet" href="../css/main.css">
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Senhe Hao</title>
+	<script src="../js/main.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
 </head>
 <body>
 	<nav>
@@ -50,12 +50,14 @@
 			</div>
 			<div class="profile-section parallax-layer">
 				<img class="profile-picture" src="pfp.jpg" alt="Profile Picture">
-				<h1>
+				<div class="simple-divider"></div>
+				<h1 class="title-name">
 					Senhe Hao
 				</h1>
 			</div>
 		</section>
 	</main>
+	<a onClick="changeTheme()" class="switch-button">Switch Themes</a>
 	<div class="site-page">
 		<div id="about" class="black-bar"></div>
 		<div class="about-me">
@@ -63,7 +65,7 @@
 				<p class="about-text">
 					Hi I'm Senhe!
 				</p>
-				<p class="about-text">
+				<p class="about-text about-left">
 					I'm a 
 					<a href="https://github.com/Thionazin" class="prog-link about-link">Programmer,</a>
 					<img src="../images/output.png" alt="github profile picture" class="rl-image github">
@@ -78,16 +80,16 @@
 					<img src="../images/bsa.jpeg" alt="bsa logo" class="rl-image bsa">
 					and a lifelong learner. My academic interests include algorithms, graphics, AI/ML, networks, and parallel computing. In my free time I enjoy competitive programming, playing the trumpet, cooking, reading, writing, playing video games, and playing as well as GMing tabletop role playing games.
 				</p>
-				<p class="about-text">
+				<p class="about-text about-right">
 					My journey with computers started with a digital design class in MIDDLE SCHOOL, where I learned to work with programs to design all sorts of things. Both of my parents did chemistry, so before then the extent of my knowledge was knowing how to draw in Microsoft Paint. The teacher, Chris Lofren, heavily encouraged me to learn as much as I could. 
 				</p>
-				<p class="about-text">
+				<p class="about-text about-left">
 					In the year after that, I signed up for his web and game development classes, where I learned how to make websites with html, css ,and javascript as well as make games with Unity. Though back then I barely understood what was going on. As in I thought an array was pointless and variables were all you ever needed to store information. 
 				</p>
-				<p class="about-text">
+				<p class="about-text about-right">
 					Only in high school did I start developing an interest in computer science. At the beginning of sophomore year, I wanted to be a particle physicist, but by the end I was dead set on computer science. Over the course of my high school years, I made all sorts of projects by myself and casually participated in UIL computer science. By senior year, a friend and I made an app for the school at the request of the superintendent, although covid made them cancel the program it was supposed to be used for.
 				</p>
-				<p class="about-text">
+				<p class="about-text about-left">
 					In general, I enjoy creating and building things as well as problem solving. The best part is when I get to see my final product in action, with the knowledge that I built that. Which leads to one of my lifelong goals. I want to learn and find as many answers as I can to the endless pile of questions in life.
 				</p>
 			</div>
@@ -115,7 +117,7 @@
 	<div class="site-page">
 		<div id="portfolio" class="black-bar"></div>
 		<div class="showcase-container">
-			<div class="showcase showcase-1">
+			<div class="showcase showcase-1 sc-right">
 				<h2>Cache Simulator</h1>
 				<img src="../images/cache_sim.png" alt="cache simulator picture" class="showcase-image">
 				<hr class="seperator">
@@ -125,7 +127,7 @@
 				<hr class="seperator">
 				<a href="https://github.com/Thionazin/cache-simulator" class="github-link">Git Repo</a>
 			</div>
-			<div class="showcase showcase-2">
+			<div class="showcase showcase-2 sc-left">
 				<h2>Pin-It</h1>
 				<img src="../images/pinit.jpeg" alt="pin it picture" class="showcase-image">
 				<hr class="seperator">
