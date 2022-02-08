@@ -299,6 +299,9 @@ nav ul li a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: #571F4E;
+	color: white;
+	transition: all 0.2s linear;
 }
 
 .service-photos {
@@ -306,11 +309,34 @@ nav ul li a:hover {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-left: 6%;
+}
+
+.service-text {
+	margin-right: 6%;
+	text-decoration: none;
+	border: 12px solid white;
+	padding: 3%;
+}
+
+.service-text a {
+	color: #A2FAA3;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+	border-bottom: 1px solid transparent;
+}
+
+.service-text a:hover {
+	color: white;
+	border-bottom: 1px solid;
 }
 
 .service-image {
-	max-width: 15%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	max-width: 25%;
 	height: auto;
+	border: 8px solid white;
 }
 
 .contact-info {

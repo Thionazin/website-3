@@ -433,6 +433,7 @@ nav ul li a {
 .service-container {
 	display: flex;
 	flex-direction: column;
+	transition: all 0.2s linear;
 }
 
 .service-photos {
